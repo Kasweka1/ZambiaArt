@@ -176,7 +176,7 @@ main .mongu .mongu_images .r2 .waterfall{
 
 main .zm_flag{
 	width: 250px;
-	margin: 0 auto;
+	margin: 10 auto;
 }
 
 /* Main */
@@ -225,6 +225,120 @@ footer .bottom_footer{
 footer .bottom_footer p a{
 	color: white;
 }
+
+/*Footer*/
+/*Responsive Part*/
+
+@media only screen and (max-width: 720px) {
+	header .top_header nav, header .top_header .about, header .bottom_header .art_svg {
+		display: none;
+	}
+	/* header*/
+	header .top_header .logo{
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+	}
+	header .top_header .logo h2{
+		margin: 10px 0 0 0;
+		font-size: 2.3em;
+	}
+	header .bottom_header .welcome{
+		padding: 0;
+	}
+	header .bottom_header .welcome h1{
+		text-align: center;
+		margin: 0 auto;
+		font-size: 240%;
+		width: 100%;
+		margin: 0;
+	}
+	header .bottom_header .welcome p{
+		text-align: center;
+	}
+	/* header*/
+	
+	/* main*/
+	main div.lusaka div.lusaka_images > div.r2 > img{
+		display: none;
+	}
+	main div.lusaka div.lusaka_images {
+		width: 80%;
+		margin: 30px auto 0 auto;
+	}
+	main div.lusaka div.lusaka_images .r1 *{
+		width: 100%;
+	}
+	main div.lusaka div.lusaka_images .r2 *{
+		widows: 100%;
+	}
+	main div.mongu{
+		margin: 0;
+	}
+	main div.mongu .h1_underline{
+		margin: 5% 0 0 7%;
+		
+	}
+	main div.mongu div.mongu_images{
+		width: 100%;
+		display: block;
+		margin: 20% 0 0 14.5%;
+	}
+	main  div.mongu >div.mongu_images div.r2{
+		width: 100%;
+		display: block;
+	}
+	body > main > div.mongu > div.mongu_images > div.r1 > img{
+		width: 100%;
+	}
+	main  div.mongu >div.mongu_images div.r2 img.train{
+		margin: 25px 0 0 0;
+		width: 94%;
+		
+	}
+	main  div.mongu >div.mongu_images div.r2 img.waterfall{
+		width: 94%;
+	}
+	/* main*/
+	
+	/*footer*/
+	footer .top_footer{
+		display: block;
+	}
+	footer .top_footer .footer_logo{
+		text-align: center;
+	}
+	footer .top_footer .address{
+		margin: 20px auto;
+		width:60%;
+	}
+	footer .top_footer .footer_logo img{
+		margin: 0;
+	}
+	footer .top_footer .disclaimer{
+		margin: 20px auto;
+		width:60%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
