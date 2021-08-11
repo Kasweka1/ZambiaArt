@@ -1,0 +1,232 @@
+/* variables*/
+:root {
+  --blue: #00668B;
+  --white: #ffffff;
+}
+/* variables*/
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+/*header */
+header{
+	background: var(--blue);
+}
+
+header .container{
+	width:86%;
+	margin: 0 auto;
+	padding: 20px 0 30px 0 ;
+	color: white;
+}
+
+header .top_header{
+	display: flex;
+	align-items:baseline;
+	justify-content: space-between;
+}
+
+header .top_header .logo{
+	display: flex;
+	align-items:baseline; 
+}
+header .top_header .logo img{
+	width: 60px;
+	height: 55px;
+}
+header .top_header .logo h2{
+	font-weight: 510;
+	font-size: 1.9em;
+	margin: 0 0 0 7px;
+}
+
+header .top_header nav{
+}
+
+header .top_header nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+header .top_header nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+}
+header .top_header nav ul li a:hover{
+	text-decoration: underline;
+}
+header .top_header nav ul li{
+	display: inline;
+	margin: 0 10px;
+}
+
+header .top_header .about a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+	border: 2px solid white;
+	padding: 2px 20px;
+	border-radius: 15px;
+	
+}
+
+
+header .bottom_header{
+	display: flex;
+	margin: 40px 0 0 0;
+}
+
+header .bottom_header .welcome{
+	padding: 20px 0 0 50px;
+
+}
+header .bottom_header .welcome h1{
+	width: 70%;
+	font-weight: 500;
+	font-size: 3em;
+}
+
+header .bottom_header .art_svg img{
+	width:65%;
+	margin: 0 0 0 190px;
+}
+/*Header */
+
+/*Main*/
+
+main{
+	margin: 50px 0;
+}
+main .lusaka{
+	width:86%;
+	margin: 0 auto 50px auto; 
+}
+main .lusaka .r1, .r2{
+	margin: 30px 0 0 0;
+}
+main .h1_underline h1{
+	font-weight: 400;
+	font-size: 3.2em;
+	margin: 0;
+}
+
+main .h1_underline hr{
+	border: 1px solid var(--blue);
+}
+
+main .lusaka_images{
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+}
+/*
+main .lusaka_images .workers{
+	grid-column: 1/3;
+	grid-row: 1/3;
+}
+main .lusaka_images .elephant{
+	grid-column: 3/4;
+	grid-row: 1/3;
+}
+
+main .lusaka_images .kids{
+	grid-column: 1/2;
+}
+*/
+main section{
+	background: var(--blue);
+	color: white;
+	padding: 50px 30px;
+}
+main section p{
+	margin: 0 auto;
+	width: 40%;
+	line-height: 1.4em;
+}
+
+main .mongu{
+	width:86%;
+	margin: 50px auto 50px auto; 
+}
+main .mongu_images{
+	display: flex;
+	width: 80%;
+	margin: 50px auto;
+}
+
+main .mongu .mongu_images{
+	display: flex;
+}
+main .mongu .mongu_images .r1{
+	margin: 0 20px 0 0;
+}
+main .mongu .mongu_images .r2{
+	margin:0;
+}
+
+main .mongu .mongu_images .r2 .waterfall{
+	margin: 25px 0 0 0 ;
+}
+
+main .zm_flag{
+	width: 250px;
+	margin: 0 auto;
+}
+
+/* Main */
+
+/* Footer */
+footer{
+	background: var(--blue);
+}
+footer .top_footer{
+	display: flex;
+	justify-content: space-between;
+	width:86%;
+	margin: 0 auto;
+	padding: 20px 0 40px 0 ;
+	color: white;
+	
+}
+
+footer .top_footer .footer_logo h2{
+	font-weight: 510;
+	font-size: 1.9em;
+	margin: 0 0 10px 0;
+}
+
+footer .top_footer .footer_logo img{
+	margin:0 0 0 26px;
+}
+
+footer .top_footer .address, .disclaimer{
+	width: 30%;
+	line-height: 1.3em;
+	font-size: 1.2em;
+}
+footer .top_footer .address{
+	margin: 0 0 0 70px; 
+}
+footer .top_footer .address p, .disclaimer p{
+	margin: 0;
+}
+footer .bottom_footer{
+	padding: 6px;
+	color: white;
+	background: #084A63;
+	text-align: center;
+}
+footer .bottom_footer p a{
+	color: white;
+}
+
+
+
+
+
