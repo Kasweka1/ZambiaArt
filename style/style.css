@@ -272,6 +272,9 @@ footer .bottom_footer p a{
 	main div.lusaka div.lusaka_images .r2 *{
 		widows: 100%;
 	}
+	main section p{
+		 margin: 0 20%;
+	}
 	main div.mongu{
 		margin: 0;
 	}
